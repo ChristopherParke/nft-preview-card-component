@@ -19,16 +19,63 @@
     color: #88Acd9;
 }
 
+
+.cardImage {
+    background: url("../../images/image-equilibrium.jpg") no-repeat center;
+    background-size: cover;
+    height: 278px;
+    width: 278px;
+    border-radius: 8px;
+}
+
+.overlay {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay > img {
+    display: none;
+}
+
+.overlay:hover {
+    background: rgba(0,255,248,0.5);
+}
+
+.overlay:hover > img {
+    display: block;
+}
+
+.eye {
+    height: 48px;
+    width: 48px;
+}
+
 .equ {
     height: 278px;
     width: 278px;
     border-radius: 8px;   
 }
 
+img:hover {
+    background-color: #00fff8;
+    border:1px solid pink;
+    cursor: pointer;
+}
+
 .h1 {
     color: #fff;
     font-weight: 600;
     font-size: 22px;
+}
+
+.h1:hover {
+    color: #00fff8;
+    cursor: pointer;
 }
 
 .priceWrapper {
@@ -90,3 +137,7 @@ hr {
     border-radius: 50%
 }
 
+.jules:hover {
+    color: #00fff8;
+    cursor: pointer;
+}
