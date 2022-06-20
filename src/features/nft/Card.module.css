@@ -1,143 +1,170 @@
 .card {
-    height: 543px;
-    width: 327px;
-    border-radius: 15px;
-    background-color: #15263F;
-    box-shadow: 0px 25px 50px rgba(0,0,0,0.0952917);
-    display: flex;
-    flex-wrap: wrap;
-    padding: 24px;
-    color: #8bacd9;
+  height: 543px;
+  width: 327px;
+  border-radius: 15px;
+  background-color: #15263f;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px;
+  color: #8bacd9;
 }
 
 .card > p {
-    margin: 0;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 26px;
-    color: #88Acd9;
+  margin: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #88acd9;
 }
 
-
 .cardImage {
-    background: url("../../images/image-equilibrium.jpg") no-repeat center;
-    background-size: cover;
-    height: 278px;
-    width: 278px;
-    border-radius: 8px;
+  background: url("../../images/image-equilibrium.jpg") no-repeat center;
+  background-size: cover;
+  height: 278px;
+  width: 278px;
+  border-radius: 8px;
 }
 
 .overlay {
-    cursor: pointer;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .overlay > img {
-    display: none;
+  display: none;
 }
 
 .overlay:hover {
-    background: rgba(0,255,248,0.5);
+  background: rgba(0, 255, 248, 0.5);
 }
 
 .overlay:hover > img {
-    display: block;
+  display: block;
 }
 
 .eye {
-    height: 48px;
-    width: 48px;
+  height: 48px;
+  width: 48px;
 }
 
 .equ {
-    height: 278px;
-    width: 278px;
-    border-radius: 8px;   
+  height: 278px;
+  width: 278px;
+  border-radius: 8px;
 }
 
 img:hover {
-    background-color: #00fff8;
-    border:1px solid pink;
-    cursor: pointer;
+  background-color: #00fff8;
+  border: 1px solid pink;
+  cursor: pointer;
 }
 
 .h1 {
-    color: #fff;
-    font-weight: 600;
-    font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
 }
 
 .h1:hover {
-    color: #00fff8;
-    cursor: pointer;
+  color: #00fff8;
+  cursor: pointer;
 }
 
 .priceWrapper {
-    display: flex;
-    margin: 1rem 0;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  margin: 1rem 0;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .ethPrice {
-    color: #00fff8;
-    display: flex;
+  color: #00fff8;
+  display: flex;
 }
 
 .eth {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .clockContainer {
-    display: flex;
-    align-items: center;
-
+  display: flex;
+  align-items: center;
 }
 
 .clock {
-    width: 16px;
-    height: 16px;
-    margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
 }
 
 hr {
-    border: none;
-    background-color: #2e405a;
-    width: 278px;
-    height: 1px;
-    margin: 0;
+  border: none;
+  background-color: #2e405a;
+  width: 278px;
+  height: 1px;
+  margin: 0;
 }
 
 .avatarContainer {
-    margin-top: 16px;
-    width: 100%;
-    display: flex;
-    align-items: center;
+  margin-top: 16px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .avatarContainer :nth-child(2) {
-    margin-left: 16px;
+  margin-left: 16px;
 }
 
 .avatarContainer :nth-child(2) > * {
-    color: #fff;
+  color: #fff;
 }
 
 .avatar {
-    height: 33px;
-    width: 33px;
-    border: 1px solid #fff;
-    border-radius: 50%
+  height: 33px;
+  width: 33px;
+  border: 1px solid #fff;
+  border-radius: 50%;
 }
 
 .jules:hover {
-    color: #00fff8;
-    cursor: pointer;
+  color: #00fff8;
+  cursor: pointer;
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .card {
+        height: 596px;
+        width: 350px;;
+    }
+
+    .cardImage {
+        height: 302px;
+        width: 302px;
+    }
+
+    hr {
+        width: 302px;
+    }
+
+    .jules:hover {
+        font-weight: 400;
+    }
+
+    .avatarContainer {
+        font-size: 16px;
+        line-height: 20px;
+    }
 }
