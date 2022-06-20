@@ -88,6 +88,7 @@ img:hover {
 .ethPrice {
   color: #00fff8;
   display: flex;
+  font-weight: 600;
 }
 
 .eth {
@@ -97,6 +98,10 @@ img:hover {
 .clockContainer {
   display: flex;
   align-items: center;
+}
+
+.clockContainer > span {
+    font-weight: 300;
 }
 
 .clock {

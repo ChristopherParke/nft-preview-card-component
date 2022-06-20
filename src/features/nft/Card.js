@@ -8,7 +8,6 @@ import eye from "../../images/icon-view.svg";
 const Card = () => {
   return (
     <div className={styles.card}>
-      {/* <img className={styles.equ} src={equ} alt="" /> */}
       <div className={styles.cardImage}>
             <div class={styles.overlay}>
                 <img className={styles.eye} src={eye} alt="" />
