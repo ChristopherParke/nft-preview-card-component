@@ -1,0 +1,92 @@
+.card {
+    height: 543px;
+    width: 327px;
+    border-radius: 15px;
+    background-color: #15263F;
+    box-shadow: 0px 25px 50px rgba(0,0,0,0.0952917);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+    color: #8bacd9;
+}
+
+.card > p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #88Acd9;
+}
+
+.equ {
+    height: 278px;
+    width: 278px;
+    border-radius: 8px;   
+}
+
+.h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.priceWrapper {
+    display: flex;
+    margin: 1rem 0;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.ethPrice {
+    color: #00fff8;
+    display: flex;
+}
+
+.eth {
+    margin-left: 5px;
+}
+
+.clockContainer {
+    display: flex;
+    align-items: center;
+
+}
+
+.clock {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+hr {
+    border: none;
+    background-color: #2e405a;
+    width: 278px;
+    height: 1px;
+    margin: 0;
+}
+
+.avatarContainer {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.avatarContainer :nth-child(2) {
+    margin-left: 16px;
+}
+
+.avatarContainer :nth-child(2) > * {
+    color: #fff;
+}
+
+.avatar {
+    height: 33px;
+    width: 33px;
+    border: 1px solid #fff;
+    border-radius: 50%
+}
+
