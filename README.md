@@ -2,10 +2,9 @@
 
 The component is built using React.js.
 
-
-
 To view the working example, CLICK HERE: <a href='https://christopherparke.github.io/nft-preview-card-component/' target='_blank'>https://christopherparke.github.io/nft-preview-card-component/</a>
 
+![image](https://user-images.githubusercontent.com/22480193/174627757-8c8a6b96-09b3-407c-8f18-1be3b0581681.png)
 
 ### Challenge Details
 [https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
