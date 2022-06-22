@@ -1,5 +1,4 @@
 import styles from "./Card.module.css";
-import equ from "../../images/image-equilibrium.jpg";
 import icon from "../../images/icon-ethereum.svg";
 import clock from "../../images/icon-clock.svg";
 import avatar from "../../images/image-avatar.png";
@@ -14,7 +13,7 @@ const Card = () => {
             </div>
       </div>
       <h1 className={styles.h1}>Equilibrium #3429</h1>
-      <p>Our Equilibrium Collection promotes balance and calm.</p>
+      <p>Our Equilibrium collection promotes balance and calm.</p>
       <div className={styles.priceWrapper}>
         <div className={styles.ethPrice}>
           <img src={icon} alt="" />
